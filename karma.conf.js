@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-test-app'),
+      dir: require('path').join(__dirname, './coverage/angular-dynamic-component'),
       subdir: '.',
       reporters: [
         { type: 'html' },
